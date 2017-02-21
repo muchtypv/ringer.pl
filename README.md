@@ -22,6 +22,16 @@ There are lots of great options in the document.
 
 I apologise that there is very little validation of input - I never intended the world to use this!
 
+Glees:
+- It does exactly what I wanted it to do at the time
+- You can ring touches/peals of spliced (I'm currently revising smiths 23-spiced using it)
+Gripes:
+- It does only what I wanted it to do at the time
+- no input validation as previously mentioned
+- it only does 4ths place calls
+- it only does calls at the lead end
+- Stedman?  Forget it!
+
 Good luck
 
 Peter
