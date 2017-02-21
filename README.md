@@ -25,6 +25,7 @@ I apologise that there is very little validation of input - I never intended the
 Glees:
 - It does exactly what I wanted it to do at the time
 - You can ring touches/peals of spliced (I'm currently revising smiths 23-spiced using it)
+
 Gripes:
 - It does only what I wanted it to do at the time
 - no input validation as previously mentioned
