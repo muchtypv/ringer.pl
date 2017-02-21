@@ -1,0 +1,112 @@
+Fujitsu Siemens PRIMEPOWER250 2x SPARC64 V, No Keyboard
+OpenBoot 3.16.1-1, 4096 MB memory installed
+Ethernet address 0:e0:0:c4:cd:cf, Host ID: 80f3cdcf.
+XSCF Version: 4.4.1
+
+
+
+{0} ok boot net -s
+Boot device: /pci@83,4000/network@1,1  File and args: -s
+SunOS Release 5.10 Version Generic_127111-08 64-bit
+Copyright 1983-2008 Sun Microsystems, Inc.  All rights reserved.
+Use is subject to license terms.
+whoami: no domain name
+Booting to milestone "milestone/single-user:default".
+Configuring devices.
+Using RPC Bootparams for network configuration information.
+Attempting to configure interface fjgi0...
+Skipped interface fjgi0
+Attempting to configure interface hme0...
+Configured interface hme0
+Requesting System Maintenance Mode
+SINGLE USER MODE
+# /usr/platform/sun4us/sbin/prtdiag -v
+System Configuration:  Sun Microsystems  sun4us Fujitsu Siemens PRIMEPOWER250 2x
+ SPARC64 V
+System clock frequency: 220 MHz
+Memory size: 4096 Megabytes
+
+========================= CPUs =========================
+
+                    Run   Ecache   CPU    CPU
+Brd  CPU   Module   MHz     MB    Impl.   Mask
+---  ---  -------  -----  ------  ------  ----
+ 0     0     0      1320     2.0   5        0.8
+ 0     1     1      1320     2.0   5        0.8
+
+
+========================= IO Cards =========================
+
+     Bus   Freq
+Brd  Type  MHz   Slot        Name                          Model
+---  ----  ----  ----------  ----------------------------  --------------------
+ 0   PCI    33            1  network-SUNW,hme
+ 0   PCI    66            1  FJSV,pwga-fjgi                Broadcom,BCM5703C
+ 0   PCI    33            2  FJSV,ulsa-fjulsa/disk (block+ FUJITSU,1030
+ 0   PCI    33            7  isa/su (serial)
+ 0   PCI    33           10  usb-pci108e,1103.0
+ 0   PCI    33           13  ide-pci10b9,5229.c4/disk (bl+
+
+No failures found in System
+===========================
+
+========================= HW Revisions =========================
+
+ASIC Revisions:
+---------------
+PCI: pci Rev 4
+PCI: pci Rev 4
+Cheerio: ebus Rev 1
+
+System PROM revisions:
+----------------------
+#
+
+Fujitsu Siemens PRIMEPOWER250 2x SPARC64 V, No Keyboard
+OpenBoot 3.16.1-1, 4096 MB memory installed
+Ethernet address 0:e0:0:c4:cd:20, Host ID: 80f3cd20.
+XSCF Version: 4.4.1
+
+
+
+{0} ok boot net -s
+Boot device: /pci@83,4000/network@1,1  File and args: -s
+SunOS Release 5.10 Version Generic_127111-08 64-bit
+Copyright 1983-2008 Sun Microsystems, Inc.  All rights reserved.
+Use is subject to license terms.
+whoami: no domain name
+Booting to milestone "milestone/single-user:default".
+Configuring devices.
+fjgi0:Using local MAC address
+Using RPC Bootparams for network configuration information.
+Attempting to configure interface fjgi0...
+Skipped interface fjgi0
+Attempting to configure interface hme0...
+Configured interface hme0
+Requesting System Maintenance Mode
+SINGLE USER MODE
+# /usr/platform/sun4u/sbin/prtdiag -v | more
+System Configuration:  Sun Microsystems  sun4us Fujitsu Siemens PRIMEPOWER250 2x
+ SPARC64 V
+System clock frequency: 220 MHz
+Memory size: 4096 Megabytes
+
+========================= CPUs =========================
+
+                    Run   Ecache   CPU    CPU
+Brd  CPU   Module   MHz     MB    Impl.   Mask
+---  ---  -------  -----  ------  ------  ----
+ 0     0     0      1320     2.0   5        0.8
+ 0     1     1      1320     2.0   5        0.8
+
+
+========================= IO Cards =========================
+
+     Bus   Freq
+Brd  Type  MHz   Slot        Name                          Model
+---  ----  ----  ----------  ----------------------------  --------------------
+ 0   PCI    33            1  network-SUNW,hme
+ 0   PCI    66            1  FJSV,pwga-fjgi                Broadcom,BCM5703C
+ 0   PCI    33            2  FJSV,ulsa-fjulsa/disk (block+ FUJITSU,1030
+
+#
